@@ -6,6 +6,7 @@ class ChemComponent:
 
 class Flow:
 
+    NameFlow = ""    # название материального потока
     CountChemComponents = 0   # количество компонентов в потоке
     ChemComponents = [ChemComponent]*CountChemComponents    # набор компонентов
 
