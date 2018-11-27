@@ -6,8 +6,6 @@ class ChemComponent:
 
 class Flow:
 
-    MolRate = 0  # мольный расход, моль/сек
-    VolumeRate = 0  # объемный расход, м3/сек
     CountChemComponents = 0   # количество компонентов в потоке
     ChemComponents = [ChemComponent]*CountChemComponents    # набор компонентов
 
@@ -44,23 +42,34 @@ class Flow:
 
         return sum
 
-
-
     # свойства
-    def GetMolarMass(self):  # молекулярная масса, г/моль
+    def GetMolarMass(self):  # средняя молекулярная масса, г/моль
 
         sum = 0
         for i in range(self.CountChemComponents):
             sum += self.ChemComponents[i].Mr*self.MolConcComponents[i]
+
+        return sum
+
+    def GetMassDensity(self):  # плотность, кг/м3
+
+        sum = self.GetMassRate()/self.GetVolRate()
 
         return sum
 
     # концентрации
-    def GetMassConcFromMol(self):  # массовые концентрации, %мас.
+    def GetMassConcFromMol(self):  # массовые из мольных концентраций, %мас.
 
         sum = 0
         for i in range(self.CountChemComponents):
-            sum += self.ChemComponents[i].Mr*self.MolConcComponents[i]
+            sum += self.ChemComponents[i].Mr*self.MolConcComponents[i]/self.GetMolarMass()
 
         return sum
 
+    def GetMassConcFromVol(self):  # массовые из объемных концентраций, %мас.
+
+        sum = 0
+        for i in range(self.CountChemComponents):
+            sum += self.ChemComponents[i].Dencity*self.VolConcComponents[i]/self.GetMassDensity()
+
+        return sum

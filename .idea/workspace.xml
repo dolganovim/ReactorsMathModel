@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71548f6b-6b20-4802-ae41-6229f3f56eca" name="Default Changelist" comment="" />
+    <list default="true" id="71548f6b-6b20-4802-ae41-6229f3f56eca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/RecalcProperty.py" beforeDir="false" afterPath="$PROJECT_DIR$/RecalcProperty.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +49,18 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4481" />
+          <entry key="py" value="4603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4481" />
+          <entry key="Python" value="4603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlkylModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="350" column="36" lean-forward="true" selection-start-line="350" selection-start-column="4" selection-end-line="350" selection-end-column="36" />
+            <state relative-caret-position="5899">
+              <caret line="350" column="36" selection-start-line="350" selection-start-column="4" selection-end-line="350" selection-end-column="36" />
               <folding>
                 <element signature="e#247#258#0" expanded="true" />
                 <marker date="1542854289055" expanded="true" signature="28743:28995" ph="..." />
@@ -93,10 +96,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecalcProperty.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="119">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <marker date="1542856481312" expanded="true" signature="20:25" ph="..." />
+                <marker date="1543286853279" expanded="true" signature="20:25" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,6 +114,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -119,18 +125,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="868" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlkylModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="350" column="36" lean-forward="true" selection-start-line="350" selection-start-column="4" selection-end-line="350" selection-end-column="36" />
+        <state relative-caret-position="5899">
+          <caret line="350" column="36" selection-start-line="350" selection-start-column="4" selection-end-line="350" selection-end-column="36" />
           <folding>
             <element signature="e#247#258#0" expanded="true" />
             <marker date="1542854289055" expanded="true" signature="28743:28995" ph="..." />
@@ -274,10 +281,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RecalcProperty.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="119">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <marker date="1542856481312" expanded="true" signature="20:25" ph="..." />
+            <marker date="1543286853279" expanded="true" signature="20:25" ph="..." />
           </folding>
         </state>
       </provider>
